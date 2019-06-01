@@ -107,13 +107,13 @@ body {
   color: #fff;
   padding: 3px;
   text-align: center;
-  transform: translateY(-300px);
+  transform: translateY(-400px);
   animation: heading 0.5s forwards ease-out 0.5s;
   font-size: 30px;
 }
 
 .text p {
-  transform: translateY(700px);
+  transform: translateY(800px);
   animation: heading 0.5s forwards ease-out 0.5s;
   font-size: 20px;
   color: #fff;
@@ -143,12 +143,12 @@ body {
 
 
 .button .left {
-  transform: translateX(-600px);
+  transform: translateX(-700px);
   animation: button 0.5s forwards ease-out 0.5s;
 }
 
 .button .right {
-  transform: translateX(600px);
+  transform: translateX(700px);
   animation: button 0.5s forwards ease-out 0.5s;
 }
 
