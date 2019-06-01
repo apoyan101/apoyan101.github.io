@@ -107,7 +107,7 @@ body {
   color: #fff;
   padding: 3px;
   text-align: center;
-  transform: translateY(-500px);
+  transform: translateY(-700px);
   animation: heading 0.5s forwards ease-out 0.5s;
   font-size: 30px;
 }
