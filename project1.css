@@ -291,4 +291,6 @@ footer p {
   .left-container {width: 100%}
   .right-container {width: 100%}
   .icon{top: 343px}
+  .skills-container img {width: 150px}
+  .skills-container .css-img {width: 120px; height: 145px}
 }
