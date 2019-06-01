@@ -12,7 +12,7 @@ body {
 
 .main-container {
   background-image: url(1.jpg);
-  height: 396px;
+  height: 500px;
   max-width: 100%;
   background-position: center center;
   background-size: cover;
@@ -21,7 +21,7 @@ body {
 .green-container {
   background-color: rgba(0, 0, 0, 0.534);
   max-width: 100%;
-  height: 396px;
+  height: 500px;
 }
 
 .center-container {
@@ -42,7 +42,7 @@ body {
 
 .left-menu h1 {
   color: #fff;
-  font-size: 17px;
+  font-size: 30px;
   transition: 0.5s ease-in;
 }
 
@@ -67,9 +67,9 @@ body {
 .right-menu ul li a {
   text-decoration: none;
   display: block;
-  padding: 5px 10px;   
+  padding: 5px 10px;
   color: #fff;
-  font-size: 12px;
+  font-size: 18px;
   border-radius: 8px;
   transition: 0.5s ease-in;
 }
@@ -80,7 +80,7 @@ body {
 }
 
 .article-container {
-  margin-top: 20px;
+  margin-top: 50px;
   position: relative;
   height: 360px;
 }
@@ -88,8 +88,8 @@ body {
 .avatar img {
   display: block;
   margin: auto;
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   transition: 3s linear;
@@ -103,23 +103,22 @@ body {
   margin-top: 10px;
 }
 
-.text p {
-  color: #fff;
-  padding: 3px;
-  text-align: center;
-}
-
 .text h1 {
   color: #fff;
   padding: 3px;
   text-align: center;
   transform: translateY(-300px);
   animation: heading 0.5s forwards ease-out 0.5s;
+  font-size: 30px;
 }
 
 .text p {
   transform: translateY(700px);
   animation: heading 0.5s forwards ease-out 0.5s;
+  font-size: 20px;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
 }
 
 @keyframes heading {
@@ -127,15 +126,15 @@ body {
 }
 
 .button {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .button a {
-  border-radius: 5px;
-  font-size: 10px;
-  padding: 7px 8px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 8px 10px;
   background: rgb(61, 202, 73);
   text-decoration: none;
   color: #fff;
@@ -165,14 +164,14 @@ body {
 
 .icon {
   position: absolute;
-  top: 320px;
+  top: 374px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
 
 .icon i {
-  font-size: 20px;
+  font-size: 35px;
   color: #fff;
   background: #888;
   padding: 10px;
@@ -181,13 +180,12 @@ body {
 }
 
 .icon i:hover {
-  font-size: 20px;
   color: rgb(61, 202, 73);
   background: #fff;
 }
 
 .row {
-  margin-top: 30px;
+  margin-top: 120px;
   max-width: 100%;
   border-radius: 5px;
   display: flex;
@@ -201,31 +199,27 @@ body {
   transition: 0.5s linear;
 }
 
-.left-container p, .right-container table {
-  color: black;
-  padding-top: 10px;
-  font-size: 0.7rem;
-  text-align: left;
-  border-spacing: 0 7px;
-  
-}
-
 .right-container {
   width: 50%;
   padding: 10px;
   transition: 0.5s linear;
 }
 
-.right-container table th {
-  width: 230px;
+.left-container p, .right-container table {
+  color: black;
+  padding-top: 10px;
+  font-size: 1rem;
+  text-align: left;  
+  width: 100%;
 }
 
-.right-container table th, td {
-  border-bottom: 1px solid black;
+.right-container table th {
+  width: 320px;
+  line-height: 25px;
 }
 
 .left-container h1, .right-container h1 {
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .right-container:hover {
@@ -242,12 +236,12 @@ body {
 
 .skills-container {
   max-width: 100%;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .skills-container h2 {
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   padding: 10px;
   text-shadow: 8px 4px 6px rgba(0,0,0,0.63)
 }
@@ -258,10 +252,11 @@ body {
   align-items: center;
   justify-content: space-between;
   max-width: 100%;
+  padding-top: 30px;
 }
 
 .skills-container img {
-  width: 120px;
+  width: 200px;
   animation: image;
   animation-duration: 7s;
   animation-iteration-count: infinite;
@@ -270,8 +265,8 @@ body {
 }
 
 .skills-container .css-img {
-  width: 85px;
-  height: 120px;
+  width: 150px;
+  height: 200px;
 }
 
 .skills-container img:hover {
@@ -286,7 +281,7 @@ footer p {
   text-align: center;
   background: #888;
   padding: 2px;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 630px) {
